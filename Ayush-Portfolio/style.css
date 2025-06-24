@@ -240,6 +240,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
   justify-items: center;
+  margin-bottom: 50px;
 }
 
 .skill-card {
@@ -466,6 +467,10 @@ body {
     margin-bottom: 40px;
   }
 
+  .hero-right{
+    margin-top: -100px;
+  }
+
   .bg-skew {
     display: none;
   }
@@ -501,6 +506,18 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .hero-right{
+    top: -200px;
+    margin-bottom: -250px;
+  }
+
+  .hero-right img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
   .about-grid {
     flex-direction: column;
     text-align: center;
