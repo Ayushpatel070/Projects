@@ -450,7 +450,7 @@ body {
 }
 
 /* Responsive Navbar & Layout */
-@media (max-width: 991px) {
+@media (max-width: 980px) {
   .hero {
     flex-direction: column;
     text-align: center;
@@ -508,8 +508,8 @@ body {
 @media (max-width: 768px) {
 
   .hero-right{
-    top: -200px;
-    margin-bottom: -250px;
+    top: -230px;
+    margin-bottom: -320px;
   }
 
   .hero-right img{
