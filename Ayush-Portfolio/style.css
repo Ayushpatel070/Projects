@@ -205,7 +205,8 @@ body {
 
 .interests span {
   display: inline-block;
-  margin-right: 15px;
+  margin-top: 10px;
+  margin-right: 20px;
   background: #e0e0e0;
   padding: 6px 12px;
   border-radius: 20px;
