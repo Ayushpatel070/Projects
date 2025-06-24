@@ -45,22 +45,21 @@
 }
 
 .logo{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     font-family: cursive;
+    margin: 0px 20px;
 }
 
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    /* background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(8px); */
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 45px;
     padding: 12px 40px;
     z-index: 999;
 }
@@ -80,7 +79,7 @@
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 5px;
     padding: 8px;
     display: block;
@@ -92,9 +91,9 @@
     opacity: 0;
     visibility: hidden;
     transition: 0.3s ease;
-    z-index: 1000;
     position: absolute;
     background: white;
+    z-index: 1000;
 }
 
 .main-menu:hover .dropdown,
@@ -125,7 +124,7 @@
 .dropdown li a {
     color: #000;
     margin-left: 5px;
-    padding: 3px 10px;
+    padding: 4px 10px;
     font-size: 12px;
     display: block;
 }
@@ -181,38 +180,37 @@
     margin-top: -170px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-around;
+    gap: 50px;
+    justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     z-index: 1;
 }
 
 .cake{
     background-color: white;
-    width: 300px;
+    width: 400px;
 }
 
 .cake-cards .name{
-    font-family: 'Lucida Sans Unicode';
-    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
     margin-top: 20px;
     padding-bottom: 25px;
 }
 
 .cake-cards .description{
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.7;
     padding: 10px;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .cake-cards .button{
     width: 100%;
     margin-top: 20px;
-    padding: 15px 0px;
-}
-
-.button{
+    padding: 20px 0px;
+    font-size: 16px;
     color: white;
     border: none;
     transition: 0.3s ease;
@@ -250,16 +248,17 @@ img{
 
 .container2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 50px 0px;
+    padding: 100px 0px;
     padding-left: 50px;
     z-index: 1;
 }
 
-.container2 .left-column {
-    flex: 0.7;
-    padding: 10px;
+.container2 .left-column,
+.container2 .right-column {
+    flex: 1;
+    padding: 0 40px;
 }
 
 .container2 .left-column h3 {
@@ -271,26 +270,35 @@ img{
 .container2 .left-column h1 {
     font-size: 40px;
     margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container2 .left-column .desc{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .container2 .left-column p span {
     color: darkred;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .container2 .left-column p {
-    margin-bottom: 20px;
+    margin-right: 250px;
+    margin-bottom: 50px;
     color: gray;
     line-height: 1.6;
-    font-size: 13.5px;
+    font-size: 16px;
 }
 
 .container2 .left-column button {
-    padding: 10px 25px;
+    padding: 20px 35px;
     font-size: 16px;
     background-color: white;
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: 35px;
     cursor: pointer;
     transition: 0.4s ease;
 }
@@ -301,11 +309,16 @@ img{
     border: none;
 }
 
+.container2 .right-column{
+    flex: 1;
+    padding: 0;
+}
+
 .container2 .right-column .image {
     position: relative;
-    width: 570px;
-    height: 550px;
-    background: url(https://baker.la-studioweb.com/wp-content/uploads/2021/08/m2-bg6.jpg);
+    width: 100%;
+    height: 650px;
+    background: url(https://baker.la-studioweb.com/wp-content/uploads/2021/08/m2-bg6.jpg)no-repeat;
     background-position: -30px 0px;
     background-size: cover;
     transition: 0.4s ease;
@@ -313,7 +326,7 @@ img{
 
 .container2 .right-column .image:hover{
     background-position: 0px 0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3)) , url(https://baker.la-studioweb.com/wp-content/uploads/2021/08/m2-bg6.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3)) , url(https://baker.la-studioweb.com/wp-content/uploads/2021/08/m2-bg6.jpg)no-repeat;
     background-size: cover;
 }
 
@@ -330,11 +343,11 @@ img{
 
 .stats-section {
     background-color: rgb(236, 238, 237);
-    padding: 40px 20px;
+    padding: 80px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 180px;
+    gap: 230px;
     text-align: center;
 }
 
@@ -343,25 +356,25 @@ img{
 }
 
 .stat h1 {
-    font-size: 48px;
+    font-size: 80px;
     font-weight: bold;
     margin-bottom: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .stat p {
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(37, 37, 37);
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 .container3 {
-    padding: 50px;
+    padding: 100px;
     z-index: 1;
 }
 
-.container3 h6,h2{
+.container3 h4,h2{
     text-align: center;
     padding: 5px;
     color: rgb(157, 15, 15);
@@ -369,15 +382,18 @@ img{
 
 .container3 h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: lighter;
     padding-bottom: 50px;
     color: black;
 }
 
 .container3 span{
-    font-size: 13px;
+    margin-top: 65px;
+    text-align: center;
+    font-size: 16px;
     text-decoration: underline;
+    transition: 0.5s ease;
 }
 
 .container3 span:hover{
@@ -390,23 +406,29 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 50px;
 }
 
 .item{
-    width: 260px;
+    width: 400px;
     text-align: center;
+}
+
+.item img{
+    height: 300px;
+    object-fit: cover;
+    padding: 40px;
 }
 
 .icon{
     display: inline-block;
     padding: 11px;
     margin: 8px 5px;
-    height: 35px;
-    width: 35px;
-    font-size: 11.5px;
-    background: aliceblue;
-    transform: translate(0px, -70px);
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    background: rgb(236, 238, 237);
+    transform: translate(0px, -80px);
     transition: 0.4s ease;
     opacity: 0;
     z-index: 10;
@@ -435,7 +457,7 @@ img{
 
 .item:hover .icon
 {
-    transform: translate(0px, -145px);
+    transform: translate(0px, -175px);
     opacity: 1;
 }
 
@@ -453,18 +475,19 @@ img{
 }
 
 .container4 .quote-text {
-    font-size: 18px;
+    font-size: 22px;
     color: #555;
     max-width: 600px;
-    margin: 0 auto 40px auto;
-    line-height: 1.6;
+    margin: 0 auto 30px auto;
+    opacity: 0.8;
+    line-height: 2;
 }
 
 .container4 .profile-img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    border: 4px solid white;
+    border: 5px solid white;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -485,22 +508,22 @@ img{
     background-color: gray;
 }
 
-.container5{
-    padding: 50px;
+.container5 {
+    padding: 100px;
     z-index: 1;
 }
 
-.container5 h6,h2{
+.container5 h4,h2{
     text-align: center;
-    padding: 3px;
+    padding: 5px;
     color: rgb(157, 15, 15);
 }
 
 .container5 h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: lighter;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     color: black;
 }
 
@@ -513,7 +536,7 @@ img{
 }
 
 .blogs{
-    width: 500px;
+    width: 600px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-content: space-around;
@@ -521,43 +544,43 @@ img{
 }
 
 .blogs .left-column,.blogs .right-column{
-    width: 250px;
+    width: 300px;
 }
 
 .blogs .right-column{
-    padding: 15px;
+    padding: 20px;
     padding-left: 20px;
 }
 
 .blogs .right-column .date{
-    font-size: 10px;
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
     color: rgb(157, 15, 15);
-    font-weight: bold;
 }
 
 .blogs .right-column .name{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
-    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
     transition: 0.5s ease;
 }
 
 .blogs .right-column .desc{
-    font-size: 12px;
+    font-size: 13.5px;
     line-height: 1.7;
-    opacity: 0.5;
-    margin-bottom: 20px;
+    opacity: 0.6;
+    margin-bottom: 25px;
 }
 
 .blogs .right-column .button{
     color: black;
     background-color: rgb(245, 245, 245);
     border-radius: 20px;
-    border: 0.5px solid black;
-    font-size: 11px;
-    padding: 10px 16px;
+    border: 1px solid lightgray;
+    font-size: 12px;
+    padding: 12px 20px;
     margin-bottom: 10px;
+    transition: 0.3s ease;
 }
 
 .blogs .right-column .button:hover{
@@ -574,7 +597,7 @@ img{
 .container5 .span{
     margin-top: 65px;
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
     text-decoration: underline;
     transition: 0.5s ease;
 }
@@ -595,37 +618,41 @@ img{
 }
 
 .container6{
-    padding: 50px;
+    padding: 100px;
     background-color: rgb(236, 238, 237);
     z-index: 1;
 }
 
-.container6 h6,h2{
+.container6 h4,h2{
     text-align: center;
-    padding: 3px;
+    padding: 5px;
     color: rgb(157, 15, 15);
 }
 
 .container6 h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: lighter;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     color: black;
 }
 
 .offer-cards{
     display: flex;
-    gap: 70px;
+    gap: 50px;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #fff;
-    height: 450px;
-    width: 300px;
+    min-height: 500px;
+    height: auto;
+    width: 400px;
     overflow: hidden;
     position: relative;
     transition: 0.4s ease;
@@ -634,16 +661,14 @@ img{
 .offer-name {
     background: #6b0000;
     color: #fff;
-    font-size: 1.5rem;
-    padding: 18px 20px;
-    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     clip-path: polygon(0 0, 75% 0, 65% 50%, 75% 100%, 0% 100%);
 }
 
 .offer-name .small{
     font-size: 11px;
-    margin-top: -5px;
 }
 
 .card.member .offer-name {
@@ -666,8 +691,7 @@ img{
     color: #555;
     line-height: 2;
     min-height: 220px;
-    font-size: 12px;
-    margin-bottom: 90px;
+    font-size: 15px;
     opacity: 0.8;
 }
 
@@ -683,16 +707,15 @@ img{
     padding: 20px;
     text-align: left;
     position: relative;
+    margin-top: auto;
 }
 
 .card.member .price {
     background: #a50d0d;
-    margin-top: -50px;
 }
 
 .card.premium .price {
     background: #8b4c00;
-    margin-top: -27px;
 }
 
 .price span {
@@ -736,7 +759,7 @@ img{
 }
 
 .footer-column h3 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: lighter;
     margin-bottom: 20px;
     color: rgb(34, 34, 34);
@@ -747,11 +770,11 @@ img{
 }
 
 .footer-column ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer-column ul li a {
-    font-size: 13px;
+    font-size: 15px;
     opacity: 0.9;  
     text-decoration: none;
     color: rgb(68, 68, 68);
@@ -764,13 +787,13 @@ img{
 
 .newsletter form {
     display: flex;
-    max-width: 350px;
+    max-width: 420px;
 }
 
 .newsletter input[type="email"] {
-    padding: 12px;
-    font-size: 12px;
-    width: 350px;
+    padding: 15px;
+    font-size: 14px;
+    width: 420px;
     border: 1px solid rgb(204, 204, 204);
     outline: none;
 }
@@ -795,12 +818,17 @@ img{
     flex-wrap: wrap;
     align-items: center;
     border-top: 1px solid rgb(221, 221, 221);
-    padding-top: 20px;
+    padding: 20px;
     font-size: 12px;
+}
+
+.footer-bottom p {
+    opacity: 0.8;
 }
 
 .footer-bottom a{
     color: black;
+    opacity: 1;
 }
 
 .payment-icons img {
