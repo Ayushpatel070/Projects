@@ -51,6 +51,10 @@
     margin: 0px 20px;
 }
 
+.hamburger{
+    display: none;
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -355,7 +359,18 @@ img{
     color: rgb(122, 12, 12);
 }
 
+.pre-stat{
+    display: flex;
+}
+
 .stat h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stat span {
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 10px;

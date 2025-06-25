@@ -11,6 +11,7 @@
     <section class="container">
         <nav class="navbar">
             <ul class="nav-links">
+                <ul class="nav-links" id="navLinksLeft">
                 <li class="main-menu"><a href="#">HOME <i class="fa-solid fa-angle-down"></i></a>
                     <ul class="dropdown wide-dropdown">
                         <li><a href="#">Cake Shop 01</a></li>
@@ -62,9 +63,13 @@
                         <li><a href="#">Coming Soon</a></li>
                     </ul>
                 </li>
+            </ul>    
             </ul>
             <div class="logo">B</div>
+            <label for="nav-toggle" class="hamburger">☰</label>
+            <input type="checkbox" id="nav-toggle" hidden>
             <ul class="nav-links">
+                <ul class="nav-links" id="navLinksRight">
                 <li><a href="#">CONTACT</a></li>
                 <li class="main-menu"><a href="#">BLOG <i class="fa-solid fa-angle-down"></i></a>
                     <ul class="dropdown wide-dropdown">
@@ -76,6 +81,7 @@
                     </ul>
                 </li>
                 <li><a href="#">CART (0)</a></li>
+            </ul>    
             </ul>
         </nav>
         <div class="bg-img">
@@ -139,15 +145,21 @@
     
     <section class="stats-section">
         <div class="stat">
-            <h1>70+</h1>
+            <div class="pre-stat">
+            <h1 class="counter1">70</h1><span>+</span>
+            </div>
             <p>YEARS</p>
         </div>
         <div class="stat">
-            <h1>10K+</h1>
+            <div class="pre-stat">
+            <h1 class="counter2">10</h1><span>K+</span>
+            </div>
             <p>CLIENT</p>
         </div>
         <div class="stat">
-            <h1>500+</h1>
+            <div class="pre-stat">
+            <h1 class="counter3">500</h1><span>+</span>
+            </div>
             <p>CAKES</p>
         </div>
     </section>
@@ -434,10 +446,42 @@
 
     <script>
         let a = document.querySelector(".navbar");
+
         function scroll(){
            a.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
            a.style.backdropFilter = "blur(8px)";
         }
+
+        let count1 = 0;
+        let count2 = 0;
+        let count3 = 480;
+
+        let counter1 = document.querySelector(".counter1");
+        let counter2 = document.querySelector(".counter2");
+        let counter3 = document.querySelector(".counter3");
+
+        console.log(counter1);
+
+        function x1(){
+            if(count1<=70){
+                counter1.innerHTML = count1++;
+            }
+        }
+        setInterval(x1,33.333);
+
+        function x2(){
+            if(count2<11){
+                counter2.innerHTML = count2++;
+            }
+        }
+        setInterval(x2,212);
+
+        function x3(){
+            if(count3<=500){
+                counter3.innerHTML = count3++;
+            }
+        }
+        setInterval(x3,111);
     </script>
 
 </body>
