@@ -50,7 +50,7 @@
 .logo{
     font-size: 50px;
     font-weight: 400;
-    font-family: "Inter", serif;
+    font-family: cursive;
     margin: 0px 20px;
 }
 
@@ -409,7 +409,9 @@ img{
 }
 
 .container3 span{
-    margin-top: 65px;
+    display: block;
+    text-align: center;
+    margin: 65px auto 0 auto;
     font-size: 16px;
     text-decoration: underline;
     transition: 0.5s ease;
@@ -735,7 +737,6 @@ img{
 
 .price span {
     font-size: 30px;
-    font-weight: bold;
     font-family: "Montaga", serif;
 }
 
@@ -766,16 +767,15 @@ img{
 }
 
 .footer-top {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin-bottom: 30px;
 }
 
 .footer-column h3 {
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 400;
     margin-bottom: 20px;
     color: rgb(34, 34, 34);
 }
@@ -828,9 +828,9 @@ img{
 }
 
 .footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     align-items: center;
     border-top: 1px solid rgb(221, 221, 221);
     padding: 20px;
