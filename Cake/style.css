@@ -185,10 +185,10 @@
     width: 90%;
     background-color: white;
     margin-top: -170px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 50px;
-    justify-content: center;
+    justify-items: center;
     text-align: center;
     padding: 25px;
     z-index: 1;
@@ -254,9 +254,10 @@ img{
 }
 
 .container2 {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    gap: 40px;
     padding: 100px 0px;
     padding-left: 50px;
     z-index: 1;
@@ -409,7 +410,6 @@ img{
 
 .container3 span{
     margin-top: 65px;
-    text-align: center;
     font-size: 16px;
     text-decoration: underline;
     transition: 0.5s ease;
@@ -421,11 +421,10 @@ img{
 }
 
 .cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 50px;
+    justify-items: center;
 }
 
 .item{
@@ -547,11 +546,10 @@ img{
 }
 
 .blog-cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
     gap: 50px;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .blogs{
@@ -657,11 +655,9 @@ img{
 }
 
 .offer-cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 50px;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
 }
 
 .card{
