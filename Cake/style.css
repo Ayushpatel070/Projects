@@ -66,7 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 45px;
+    gap: 40px;
     padding: 12px 40px;
     z-index: 999;
 }
@@ -180,13 +180,14 @@
     padding-left: 17px;
 }
 
+/* Cake-cards Stylings  */
 .cake-cards{
     margin: 0px auto;
     width: 90%;
     background-color: white;
     margin-top: -170px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 50px;
     justify-items: center;
     text-align: center;
@@ -196,7 +197,7 @@
 
 .cake{
     background-color: white;
-    width: 400px;
+    width: 25vw;
 }
 
 .cake-cards .name{
@@ -257,16 +258,9 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 40px;
     padding: 100px 0px;
     padding-left: 50px;
     z-index: 1;
-}
-
-.container2 .left-column,
-.container2 .right-column {
-    flex: 1;
-    padding: 0 40px;
 }
 
 .container2 .left-column h3 {
@@ -276,7 +270,7 @@ img{
 }
 
 .container2 .left-column h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 10px;
     font-weight: 400;
     font-family: "Montaga", serif;
@@ -285,26 +279,25 @@ img{
 .container2 .left-column .desc{
     color: black;
     font-family: "Montaga", serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     margin-bottom: 20px;
 }
 
 .container2 .left-column p span {
     color: darkred;
-    font-size: 15px;
+    font-size: 0.95rem;
 }
 
 .container2 .left-column p {
-    margin-right: 250px;
     margin-bottom: 50px;
     color: gray;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .container2 .left-column button {
     padding: 20px 35px;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: white;
     border: 1px solid black;
     border-radius: 35px;
@@ -319,23 +312,23 @@ img{
 }
 
 .container2 .right-column{
-    flex: 1;
-    padding: 0;
+    overflow: hidden;
 }
 
 .container2 .right-column .image {
     position: relative;
-    width: 100%;
-    height: 650px;
     background: url(https://baker.la-studioweb.com/wp-content/uploads/2021/08/m2-bg6.jpg)no-repeat;
+    width: 100%;
+    height: 90vh;
+    transform: scale(1.1);
     background-position: -30px 0px;
     background-size: cover;
     transition: 0.4s ease;
 }
 
 .container2 .right-column .image:hover{
+    background: linear-gradient(rgba(0,0,0,0.3)), url(https://baker.la-studioweb.com/wp-content/uploads/2021/08/m2-bg6.jpg)no-repeat;
     background-position: 0px 0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3)) , url(https://baker.la-studioweb.com/wp-content/uploads/2021/08/m2-bg6.jpg)no-repeat;
     background-size: cover;
 }
 
@@ -352,11 +345,12 @@ img{
 
 .stats-section {
     background-color: rgb(236, 238, 237);
-    padding: 80px 20px;
-    display: flex;
-    justify-content: center;
+    width: 99vw;
+    padding: 5rem 13.75rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
     align-items: center;
-    gap: 230px;
     text-align: center;
 }
 
@@ -366,31 +360,32 @@ img{
 
 .pre-stat{
     display: flex;
+    justify-content: center;
 }
 
 .stat h1 {
-    font-size: 76px;
+    font-size: 4.8rem;
     font-weight: 400;
     margin-bottom: 10px;
     font-family: "Montaga", serif;
 }
 
 .stat span {
-    font-size: 76px;
+    font-size: 4.8rem;
     font-weight: 400;
     margin-bottom: 10px;
     font-family: "Montaga", serif;
 }
 
 .stat p {
-    font-size: 18px;
+    font-size: 1.1rem;
     color: rgb(37, 37, 37);
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 .container3 {
-    padding: 100px;
+    padding: 6.25rem 3.5rem;
     z-index: 1;
 }
 
@@ -423,19 +418,21 @@ img{
 }
 
 .cards{
+    margin: 0px auto;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 50px;
+    grid-template-columns: repeat(3, minmax(176px, 1fr));
+    gap: 5rem;
     justify-items: center;
 }
 
 .item{
-    width: 400px;
+    width: 25vw;
     text-align: center;
 }
 
 .item img{
-    height: 300px;
+    height: 270px;
     object-fit: cover;
     padding: 40px;
 }
@@ -444,9 +441,9 @@ img{
     display: inline-block;
     padding: 11px;
     margin: 8px 5px;
-    height: 40px;
-    width: 40px;
-    font-size: 14px;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 0.875rem;
     background: rgb(236, 238, 237);
     transform: translate(0px, -80px);
     transition: 0.4s ease;
@@ -455,14 +452,14 @@ img{
 }
 
 .cards h4{
-    margin-top: -50px;
+    margin-top: -40px;
     padding: 5px;
     font-size: 14px;
 }
 
 .cards p{
     padding: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 35px;
 }
 
 .item:hover{
@@ -490,12 +487,12 @@ img{
 }
 
 .container4 .quote-icon {
-    font-size: 80px;
+    font-size: 5rem;
     color: gray;
 }
 
 .container4 .quote-text {
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #555;
     max-width: 600px;
     margin: 0 auto 30px auto;
@@ -529,7 +526,7 @@ img{
 }
 
 .container5 {
-    padding: 100px;
+    padding: 100px 20px;
     z-index: 1;
 }
 
@@ -541,21 +538,23 @@ img{
 
 .container5 h2{
     font-family: "Montaga", serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: lighter;
     padding-bottom: 70px;
     color: black;
 }
 
 .blog-cards{
+    width: 90%;
+    margin: 0px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(32.5rem, 1fr));
     gap: 50px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .blogs{
-    width: 600px;
+    width: 38vw;
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-content: space-around;
@@ -563,7 +562,7 @@ img{
 }
 
 .blogs .left-column,.blogs .right-column{
-    width: 300px;
+    width: 19vw;
 }
 
 .blogs .right-column{
@@ -572,20 +571,20 @@ img{
 }
 
 .blogs .right-column .date{
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 15px;
     color: rgb(157, 15, 15);
 }
 
 .blogs .right-column .name{
     font-family: "Montaga", serif;
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: 15px;
     transition: 0.5s ease;
 }
 
 .blogs .right-column .desc{
-    font-size: 13.5px;
+    font-size: 0.84375rem;
     line-height: 1.7;
     opacity: 0.6;
     margin-bottom: 25px;
@@ -596,7 +595,7 @@ img{
     background-color: rgb(245, 245, 245);
     border-radius: 20px;
     border: 1px solid lightgray;
-    font-size: 12px;
+    font-size: 0.75rem;
     padding: 12px 20px;
     margin-bottom: 10px;
     transition: 0.3s ease;
@@ -616,7 +615,7 @@ img{
 .container5 .span{
     margin-top: 65px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: underline;
     transition: 0.5s ease;
 }
@@ -637,7 +636,7 @@ img{
 }
 
 .container6{
-    padding: 100px;
+    padding: 100px 20px;
     background-color: rgb(236, 238, 237);
     z-index: 1;
 }
@@ -650,16 +649,19 @@ img{
 
 .container6 h2{
     font-family: "Montaga", serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: lighter;
     padding-bottom: 70px;
     color: black;
 }
 
 .offer-cards{
+    margin: 0px auto;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(176px, 1fr));
     gap: 50px;
+    justify-content: center;
 }
 
 .card{
@@ -667,9 +669,9 @@ img{
     flex-direction: column;
     justify-content: space-between;
     background: #fff;
-    min-height: 500px;
+    min-height: 69vh;
     height: auto;
-    width: 400px;
+    width: 26vw;
     overflow: hidden;
     position: relative;
     transition: 0.4s ease;
@@ -678,14 +680,14 @@ img{
 .offer-name {
     background: #6b0000;
     color: #fff;
-    font-size: 30px;
+    font-size: 1.875rem;
     padding: 20px;
     font-family: "Montaga", serif;
     clip-path: polygon(0 0, 75% 0, 65% 50%, 75% 100%, 0% 100%);
 }
 
 .offer-name .small{
-    font-size: 11px;
+    font-size: 0.6875rem;
 }
 
 .card.member .offer-name {
@@ -707,8 +709,8 @@ img{
     list-style-position: inside;
     color: #555;
     line-height: 2;
-    min-height: 220px;
-    font-size: 15px;
+    min-height: 30vh;
+    font-size: 0.9375rem;
     opacity: 0.8;
 }
 
@@ -736,12 +738,12 @@ img{
 }
 
 .price span {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "Montaga", serif;
 }
 
 .price span sup{
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin-left: 5px;
     font-family: "Montaga", serif;
 }
@@ -750,7 +752,7 @@ img{
     position: absolute;
     right: 20px;
     bottom: 25px;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .price .arrow:hover{
@@ -768,13 +770,17 @@ img{
 
 .footer-top {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(176px, 1fr));
     gap: 30px;
     margin-bottom: 30px;
 }
 
+.footer-column {
+    width: 25vw;
+}
+
 .footer-column h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     margin-bottom: 20px;
     color: rgb(34, 34, 34);
@@ -789,7 +795,7 @@ img{
 }
 
 .footer-column ul li a {
-    font-size: 15px;
+    font-size: 0.9375rem;
     opacity: 0.9;  
     text-decoration: none;
     color: rgb(68, 68, 68);
@@ -802,13 +808,13 @@ img{
 
 .newsletter form {
     display: flex;
-    max-width: 420px;
+    max-width: 27.5vw;
 }
 
 .newsletter input[type="email"] {
     padding: 15px;
-    font-size: 14px;
-    width: 420px;
+    font-size: 0.875rem;
+    width: 27.5vw;
     border: 1px solid rgb(204, 204, 204);
     outline: none;
 }
@@ -870,7 +876,7 @@ img{
     padding: 12px;
     border-radius: 50px;
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.25);
-    font-size: 18px;
+    font-size: 1.125rem;
     cursor: pointer;
     text-align: center;
     transition: 0.3s ease;
@@ -884,6 +890,245 @@ img{
 }
 #i3:hover{
     color: rgb(228, 183, 125);
+}
+
+@media (max-width:1276px) {
+    html {
+        font-size: 0.9rem;
+    }
+
+    .bg-img {
+        height: 70vh;
+    }
+
+    .container2 {
+        padding: 20px 0px 20px 20px ;
+    }
+
+    .container2 .right-column .image {
+        height: 70vh;
+    }
+
+    .stats-section {
+        width: 98vw;
+        margin-top: 3rem;
+        padding: 3.5rem 10rem;
+        font-size: 2rem;
+    }
+
+    .pre-stat h1, .pre-stat span {
+        font-size: 4.2rem;
+    }
+
+    .container5 {
+        padding: 100px 10px;
+    }
+
+    .blog-cards {
+        grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+        gap: 25px;
+    }
+
+    .blogs .right-column .desc {
+        display: none;
+    }
+
+    .right-column .name {
+        font-size: 1.2rem;
+    }
+
+    .right-column .button {
+        margin-top: 1rem;
+    }
+
+    .floating-buttons {
+        display: none;
+    }
+}
+
+@media (max-width:1076px) {
+    .nav-links a {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+
+    .cake-cards {
+        width: 100%;
+    }
+    
+    .stats-section {
+        padding: 3.5rem 5rem;
+    }
+
+    .pre-stat h1, .pre-stat span {
+        font-size: 3.8rem;
+    }
+
+    .container3 {
+        padding: 6.25rem 0.8rem;
+    }
+
+    .item img {
+        padding: 20px;
+        height: 220px;
+    }
+
+    .icon {
+        padding: 8px;
+        height: 1.8rem;
+        width: 1.8rem;
+        font-size: 0.7rem;
+    }
+
+    .item:hover .icon {
+        transform: translate(0px, -120px);
+    }
+
+    .container5 {
+        padding: 70px 0px;
+    }
+
+    .blog-cards {
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+        gap: 25px;
+    }
+
+    .blogs .right-column .date {
+        font-size: 0.6rem;
+    }
+
+    .blogs .right-column .name {
+        font-size: 0.9rem;
+    }
+
+    .blogs .right-column .button {
+        font-size: 0.6rem;
+        padding: 9px 15px;
+        margin-top: 0px;
+        margin-bottom: -6px;
+    }
+
+    .card {
+        min-height: 25vh;
+    }
+
+    .card ul {
+        font-size: 0.9rem;
+        line-height: 1.7;
+    }
+
+    .footer {
+        padding: 20px 50px;
+    }
+
+    .footer-top {
+        padding: 30px 0px;
+        margin: 0px auto;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .newsletter input[type="email"] {
+        width: 20vw;
+    }
+
+}
+
+@media (max-width:764px) {
+    .overlay h1 {
+        font-size: 1.5rem;
+    }
+
+    .overlay .arrow {
+        font-size: 3rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        padding-left: 5px;
+        padding-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cake-cards {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .cake {
+        width: 90vw;
+    }
+
+    .container2 {
+        grid-template-columns: 1fr;
+    }
+
+    .container2 .left-column button {
+        padding: 18px 30px;
+        margin-bottom: 25px;
+    } 
+
+    .container2 .right-column .image {
+        width: 98%;
+        height: 50vh;
+    }
+
+    .stats-section {
+        width: 100vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .stat {
+        padding: 0.5rem 0rem;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, minmax(100%, 1fr));
+    }
+
+    .item {
+        width: 60vw;
+    }
+
+    .blog-cards {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .blogs {
+        width: 90vw;
+        display: block;
+    }
+
+    .blogs .left-column, .blogs .right-column {
+        width: 90vw;
+    }
+
+    .offer-cards {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .card {
+        width: 85vw;
+    }
+
+    .newsletter input[type="email"] {
+        width: 100vw;
+    }
+
+    .payment-icons img {
+        height: 15px;
+        margin-left: 15px;
+    }
+
 }
 
 
