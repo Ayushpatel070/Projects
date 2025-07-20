@@ -36,19 +36,19 @@
 }
 
 .overlay h1 {
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: "Montaga", serif;
     font-weight: 400;
     margin: 0;
 }
 
 .overlay .arrow {
-    font-size: 50px;
+    font-size: 3.125rem;
     margin-top: 15px;
 }
 
 .logo{
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 400;
     font-family: cursive;
     margin: 0px 20px;
@@ -86,7 +86,7 @@
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin-top: 5px;
     padding: 8px;
     display: block;
@@ -132,7 +132,7 @@
     color: #000;
     margin-left: 5px;
     padding: 4px 10px;
-    font-size: 12px;
+    font-size: 0.75rem;
     display: block;
 }
 
@@ -202,13 +202,13 @@
 
 .cake-cards .name{
     font-family: "Montaga", serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-top: 20px;
     padding-bottom: 25px;
 }
 
 .cake-cards .description{
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.7;
     padding: 10px;
     opacity: 0.8;
@@ -218,7 +218,7 @@
     width: 100%;
     margin-top: 20px;
     padding: 20px 0px;
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
     border: none;
     transition: 0.3s ease;
@@ -902,7 +902,7 @@ img{
     }
 
     .container2 {
-        padding: 20px 0px 20px 20px ;
+        padding: 50px 0px 20px 20px ;
     }
 
     .container2 .right-column .image {
