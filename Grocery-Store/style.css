@@ -12,21 +12,17 @@ body {
 .top-banner {
     background-color: rgb(99,76,159);
     color: white;
+    width: 96.4vw;
     display: flex;
     justify-content: space-around;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 24px;
-}
-
-.sale-timer{
-    display: flex;
-    gap: 5px;
 }
 
 .sale-timer strong {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .sale-timer span {
@@ -37,8 +33,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.7rem 70px;
-    font-size: 12px;
+    padding: 11px 70px;
+    font-size: 0.75rem;
     background-color: white;
     border-bottom: 1px solid rgb(238, 238, 238);
 }
@@ -54,7 +50,7 @@ body {
 .nav-right a {
     text-decoration: none;
     color: rgb(107,114,128);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     transition: 0.3s ease;
 }
@@ -71,14 +67,14 @@ body {
 
 .delivery-time {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: rgb(107,114,128);
 }
 
 .time {
     color: rgb(234, 88, 12);
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .nav-right {
@@ -98,7 +94,7 @@ body {
     color: rgb(107,114,128);
     padding: 1.2rem 0.65rem;
     margin-left: -5px;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
 }
 
@@ -129,7 +125,7 @@ body {
 
 .dropdown-menu li a {
     padding: 8px;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #333;
     display: block;
     transition: 0.3s ease;
@@ -164,30 +160,34 @@ body {
     padding: 0rem 5rem;
 }
 
+.first-row .hamburger {
+    display: none;
+}
+
 .first-row img {
     height: 2rem;
 }
 
 .location {
-    font-size: 26px;
+    font-size: 1.625rem;
     margin-left: 0.65rem;
 }
 
 .deliver, .sign-in {
-    font-size: 11px;
+    font-size: 0.6875rem;
     line-height: 13px;
     font-weight: light;
 }
 
 .all, .account {
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 16px;
     font-weight: 500;
 }
 
 .search-bar {
     line-height: 42px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     background-color: rgb(241, 241, 241);
     border-radius: 5px;
@@ -216,25 +216,26 @@ body {
 .second-row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 1.5rem;
     border-bottom: 1px solid #eee;
 }
 
 .categories-menu {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
     padding: 0rem 5rem;
-    width: 100%;
+    width: 100vw;
 }
 
 .all-categories {
     display: flex;
-    align-items: center;
-    gap: 9rem;
+    justify-content: space-between;
+    width: 18vw;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9375rem;
     border: 1px solid #eee;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -246,7 +247,7 @@ body {
 .all-categories a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 600;
 }
 
@@ -254,8 +255,8 @@ body {
 /* Main Navbar CSS  */
 .main-navbar {
     display: flex;
-    justify-content: space-evenly;
-    gap: 9rem;
+    justify-content: space-between;
+    width: 66vw;
 }
 
 .left-row {
@@ -267,15 +268,16 @@ body {
 
 .right-row {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0.7rem;
+    width: 25vw;
     align-items: center;
-    gap: 1.5rem;
 }
 
 .main-navbar a {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -300,7 +302,7 @@ body {
 .right-row .sale-badge {
     background-color: rgb(234, 88, 12);
     color: white;
-    font-size: 10px;
+    font-size: 0.625rem;
     padding: 2px 5px;
     border-radius: 4px;
     margin-left: 2px;
@@ -323,7 +325,7 @@ body {
     padding: 0.5rem 0;
     z-index: 1000;
     border-radius: 6px;
-    min-width: 180px;
+    min-width: 12vw;
     transition: 0.3s ease;
 }
 
@@ -333,7 +335,7 @@ body {
     text-decoration: none;
     color: black;
     display: block;
-    font-size: 14px;
+    font-size: 0.875rem;
     transition: 0.3s ease;
 }
 
@@ -368,7 +370,7 @@ body {
     position: absolute;
     top: 3.2rem;
     left: -25.5rem;
-    width: 1250px;
+    width: 81.5vw;
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
     padding: 1rem 2rem;
@@ -382,18 +384,18 @@ body {
 .mega-column {
     display: flex;
     flex-direction: column;
-    min-width: 230px;
+    min-width: 15vw;
 }
 
 .mega-column h4 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
     margin-bottom: 1rem;
     color: rgb(99,76,159);
 }
 
 .mega-column a {
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: black;
     text-decoration: none;
     margin-bottom: 12px;
@@ -420,7 +422,7 @@ body {
     top: -0.3rem;
     left: -61.5rem;
     right: 0rem;
-    width: 1366px;
+    width: 89vw;
     border-radius: 8px;
     z-index: 1001;
     transition: 0.3s ease;
@@ -448,13 +450,14 @@ body {
 
 .category-column {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     background-color: white;
     border: 1px solid #eee;
-    width: 283px;
+    width: 19.6vw;
     padding: 0.3rem;
     margin-top: -2.01rem;
-    gap: 0.75rem;
+    cursor: pointer;
 }
 
 .category-column a {
@@ -465,7 +468,7 @@ body {
     text-decoration: none;
     color: black;
     border-bottom: 1px solid #eee;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     transition: 0.3s ease;
 }
@@ -481,7 +484,7 @@ body {
 
 .category-banner img {
     border-radius: 10px;
-    width: 950px;
+    width: 62vw;
     height: auto;
     object-fit: cover;
 }
@@ -501,7 +504,6 @@ body {
     align-items: flex-start;
     gap: 1rem;
     max-width: 23%;
-    padding: 1rem;
     border-radius: 8px;
     transition: 0.3s ease;
 }
@@ -513,13 +515,13 @@ body {
 
 .feature-box strong {
     display: block;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #111;
     margin-bottom: 5px;
 }
 
 .feature-box p {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: gray;
     line-height: 1.4;
 }
@@ -538,7 +540,7 @@ body {
     left: 100%;
     top: 0;
     height: 94%;
-    width: 250px;
+    width: 16.5vw;
     background-color: rgb(246, 246, 246);
     padding: 1rem;
     z-index: 10;
@@ -551,7 +553,7 @@ body {
 
 .subcategory-panel a {
     display: block;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding: 0rem 1rem 1rem 0.5rem;
     border-bottom: none;
     transition: 0.2s ease;
@@ -571,11 +573,12 @@ body {
 }
 
 .container3 .blank {
-    width: 433.34px;
+    width: 28.2vw;
 }
 
 .container3 img {
     border-radius: 8px;
+    width: 28.2vw;
 }
 
 .new-arrivals {
@@ -592,12 +595,12 @@ body {
 }
 
 .new-arrivals .new {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 .new-arrivals .alert {
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
     color: rgb(156, 163, 175);
 }
@@ -618,12 +621,12 @@ body {
 }
 
 .container4 {
-    max-width: 100vw;   
+    max-width: 100vw;
+    padding: 1rem 5rem;   
 }
 
 .products {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin: 40px auto 0 auto;
     max-width: 1600px;
@@ -633,16 +636,13 @@ body {
     background: white;
     border: 1px solid #eee;
     padding: 20px 18px 18px 18px;
-    width: 190px;
+    width: 13.6vw;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    transition: 0.3s ease;
-}
-
-.product:hover {
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .discount-badge {
@@ -814,7 +814,7 @@ body {
 }
 
 .ad img {
-    width: 317.5px;
+    width: 20.7vw;
     object-fit: contain;
     border-radius: 8px;
 }
@@ -851,7 +851,7 @@ body {
     background-color: rgb(229, 57, 53);
     color: white;
     padding: 3px 8px;
-    font-size: 11px;
+    font-size: 0.6875rem;
 }
 
 .left-card .fav-btn {
@@ -909,7 +909,7 @@ body {
 }
 
 .right-card .product-title {
-    font-size: 14px;
+    font-size: 0.8125rem;
     font-weight: 600;
     color: #111;
     margin-top: 0.3rem;
@@ -949,13 +949,13 @@ body {
 .right-card .current-price {
     color: rgb(229, 57, 53);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .right-card .old-price {
     text-decoration: line-through;
     color: gray;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .right-card .add-to-cart {
@@ -964,7 +964,7 @@ body {
     border: 1.5px solid rgb(99, 76, 159);
     border-radius: 20px;
     padding: 6px 10px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
@@ -983,7 +983,7 @@ body {
 
 .left-card .tag {
     display: inline-block;
-    font-size: 11px;
+    font-size: 0.6875rem;
     padding: 3px 6px;
     border-radius: 4px;
     font-weight: 600;
@@ -1028,7 +1028,7 @@ body {
 }
 
 .footer-card .timer span {
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: #444;
     font-weight: 600;
     padding: 0.2rem;
@@ -1036,20 +1036,19 @@ body {
 }
 
 .footer-card .timer-label {
-    font-size: 11px;
+    font-size: 0.6875rem;
     color: gray;
 }
 
 .container7 .ads {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
     padding: 0rem 5rem;
 }
 
 .container7 .ad1 img, .container7 .ad2 img {
-    width: 665px;
+    width: 43.3vw;
     height: auto;
     object-fit: contain;
     border-radius: 10px;
@@ -1066,32 +1065,32 @@ body {
 
 .product-row-1 .ad {
     padding: 1rem;
-    max-width: 285px;
+    max-width: 18.5vw;
     border-top: 1px solid #eee;
 }
 
 .product-row-1 .week {
     color: rgb(230, 150, 3);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 700;
     line-height: 35px;
 }
 
 .ad .desc {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 28px;
     margin-bottom: 0.5rem;
 }
 
 .ad .small-desc {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: gray;
     padding-bottom: 1rem;
 }
 
 .container8 .product {
-    width: 250px;
+    width: 16.3vw;
 }
 
 .product-row-2 img {
@@ -1127,7 +1126,7 @@ body {
     background: url(https://klbtheme.com/grogin/wp-content/uploads/2023/11/slider-01.jpg);
     background-size: cover;
     width: 100%;
-    height: 84px;
+    height: 12.5vh;
 }
 
 .container9 .desc {
@@ -1135,13 +1134,13 @@ body {
 }
 
 .desc .first-line {
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: rgb(255, 119, 0);
 }
 
 .desc .second-line {
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
     color: gray;
     line-height: 15px;
@@ -1156,7 +1155,7 @@ body {
 }
 
 .test-card {
-    max-width: 300px;
+    max-width: 19.5rem;
     padding: 1.2rem;
     text-align: center;
     border: 1px solid #eee;
@@ -1186,19 +1185,19 @@ body {
 }
 
 .test-card .name {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     margin: 0;
 }
 
 .test-card .label {
     color: #888;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin: 4px 0 8px;
 }
 
 .test-card .rating {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgb(255, 193, 7);
     display: flex;
     justify-content: center;
@@ -1210,7 +1209,7 @@ body {
 .test-card .count {
     color: rgb(107, 114, 128);
     font-weight: 500;
-    font-size: 13px;
+    font-size: 0.8125rem;
 }
 
 .test-card hr {
@@ -1220,7 +1219,7 @@ body {
 }
 
 .test-card .review {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
     text-align: justify;
     color: #333;
@@ -1232,27 +1231,28 @@ body {
     background-color: #ededed;
     padding: 1.5rem 5rem;
     margin-top: 4rem;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgb(51, 51, 51);
 }
 
 .newsletter {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
     padding-bottom: 2rem;
 }
 
 .newsletter .column1 {
-    max-width: 350px;
+    max-width: 22.5vw;
 }
 
 .column1 p {
     color: rgb(107, 114, 128);
-    font-size: 13px;
+    font-size: 0.8125rem;
 }
 
 .newsletter h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
@@ -1263,7 +1263,7 @@ body {
 
 .newsletter-form input {
     padding: 10px;
-    width: 300px;
+    width: 19.5vw;
     border: 1px solid #ccc;
     border-right: none;
     border-radius: 4px 0 0 4px;
@@ -1281,7 +1281,7 @@ body {
 
 .newsletter .disclaimer {
     margin-top: 0.8rem;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #888;
 }
 
@@ -1328,7 +1328,7 @@ body {
 
 .footer-box .phone, .email {
     margin-top: 1rem;
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: #555;
 }
 
@@ -1337,7 +1337,7 @@ body {
 }
 
 .footer-box .app-links p {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #555;
 }
 
@@ -1355,7 +1355,7 @@ body {
     background-color: rgb(230, 230, 230);
     color: #333;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .footer-bottom {
@@ -1364,7 +1364,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding-top: 1.5rem;
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: #666;
 }
 
@@ -1383,4 +1383,219 @@ body {
     height: 13px;
     margin-right: 5px;
     margin-top: 10px;
+}
+
+@media (max-width:1300px) {
+    html {
+        font-size: 0.9rem;
+    }
+
+    .categories-menu .product-dropdown-2 {
+        display: none;
+    }
+
+    .right-row {
+        width: 20vw;
+    }
+
+    .category-column {
+        margin-left: -1rem;
+    }
+
+    .container4 .product5, .container4 .product6 {
+        display: none;
+    }
+
+    .container4 .product {
+        width: 20vw;
+    }
+}
+
+@media (max-width:1200px) {
+    .header .navbar {
+        display: none;
+    }
+
+    .first-row .location, .first-row .address, .first-row .search-bar, .first-row .profile-logo, .first-row .sign, .first-row .like {
+        display: none;
+    }
+
+    .first-row .hamburger {
+        display: block;
+        font-size: 1.7rem;
+    }
+
+    .first-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .second-row {
+        display: none;
+    }
+
+    .category-column {
+        opacity: 0;
+    }
+
+    .container5 .ads {
+        padding: 1rem 3rem;
+    }
+}
+
+@media (max-width:1024px) {
+    .html {
+        font-size: 0.85rem;
+    }
+
+    .category-column {
+        display: none;
+    }
+
+    .category-banner img {
+        width: 100%;
+    }
+
+    .features-row {
+        padding: 1rem 2rem;
+    }
+
+    .container5 .ads {
+        padding: 1rem 1.5rem;
+    }
+
+    .container4 {
+        padding: 1rem 1.5rem;
+    }
+
+    .product .eye {
+        left: 75%;
+    }
+
+    .product:hover .eye {
+        left: inherit;
+    }
+}
+
+@media (max-width:822px) {
+    html {
+        font-size: 0.8rem;
+    }
+
+    .top-banner {
+        display: block;
+        text-align: center;
+    }
+
+    .feature-box {
+        width: 15vw;
+    }
+
+    .container5 .ads {
+        padding: 1rem;
+    }
+
+    .product .eye {
+        left: 70%;
+    }
+}
+
+@media (max-width:686px) {
+    html {
+        font-size: 0.75rem;
+    }
+
+    .top-banner .offer-text, .top-banner .sale-timer {
+        margin-top: -7px;
+    }
+
+    .container1 {
+        padding: 1rem;
+    }
+
+    .features-row {
+        padding: 1rem;
+    }
+
+    .container3 .ads {
+        padding: 1rem;
+    }
+
+    .container4 .product4, .container4 .product3 {
+        display: none;
+    }
+
+    .container4 {
+        padding: 1rem;
+        padding-top: 0rem;
+    }
+
+    .container4 .product {
+        width: 50vw;
+    }
+
+    .product .exchange {
+        opacity: 0;
+    }
+
+    .product .eye {
+        opacity: 0;
+        left: 84%;
+    }
+
+    .new-arrivals {
+        padding: 1rem;
+        padding-bottom: 0rem;
+    }
+
+    .new-arrivals .first-column {
+        display: block;
+    }
+
+    .view-all button {
+        padding: 0.3rem 1rem;
+    }
+
+    .container5 .ads {
+        padding: 1rem 0.5rem;
+    }
+
+    .container6 .product-grid {
+        padding: 1rem;
+    }
+
+    .container7 .ads {
+        padding: 1rem;
+    }
+
+    .container8 {
+        padding: 1rem;
+    }
+
+    .product-row-1 .ad, .product-row-1 .product3, .product-row-1 .product4 {
+        display: none;
+    }
+
+    .product-row-1 .product1, .product-row-1 .product2 {
+        width: 50vw;
+    }
+
+    .product-row-2 .ad, .product-row-2 .product7, .product-row-2 .product8 {
+        display: none;
+    }
+
+    .product-row-2 .product5, .product-row-2 .product6 {
+        width: 50vw;
+    }
+
+    .container9 .ad {
+        padding: 1rem;
+    }
+
+    .test-section {
+        padding: 1.5rem 1rem;
+    }
 }
