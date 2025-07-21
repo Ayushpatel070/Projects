@@ -1478,6 +1478,14 @@ body {
     .product:hover .eye {
         left: inherit;
     }
+
+    .container8 {
+        padding: 1.5rem;
+    }
+
+    .product-row-1 .ad, .product-row-2 .ad {
+        display: none;
+    }
 }
 
 @media (max-width:822px) {
@@ -1494,12 +1502,17 @@ body {
         width: 15vw;
     }
 
-    .container5 .ads {
-        padding: 1rem;
+    .new-arrivals {
+        padding: 1.5rem;
+        padding-bottom: 0rem;
     }
 
-    .product .eye {
-        left: 70%;
+    .container5 .ads {
+        padding: 1.5rem;
+    }
+
+    .container6 .product-grid {
+        padding: 1.5rem;
     }
 }
 
@@ -1522,6 +1535,7 @@ body {
 
     .features-row {
         padding: 1rem;
+        padding-left: 0rem;
     }
 
     .container3 .ads {
