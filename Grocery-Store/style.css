@@ -1514,6 +1514,10 @@ body {
     .container6 .product-grid {
         padding: 1.5rem;
     }
+
+    .view-all button {
+        padding: 0.3rem 0.8rem;
+    }
 }
 
 @media (max-width:686px) {
@@ -1522,7 +1526,7 @@ body {
     }
 
     .top-banner {
-        width: 89vw;
+        width: 90vw;
     }
 
     .top-banner .offer-text, .top-banner .sale-timer {
