@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.row {
+    height: 100vh;
+}
+
+.group1 {
+    background-color: #b75a74;
+    color: #ffefd5;
+    display: flex;
+    width: 100%;
+}
+
+.left-column {
+    width: 50vw;
+}
+
+.left-column .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem 2rem 2rem;
+}
+
+.navbar .logo img {
+    width: 6.5vw;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-links .main-menu a {
+    color: #ffefd5;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.group1 .summary h1, .group2 .summary h1, .group4 .summary h1, .group5 .summary h1, .group7 .summary h1 {
+    padding: 2.5rem 2rem 1.5rem 2rem;
+    font-size: 3.65rem;
+}
+
+.group1 .summary p, .group5 .summary p {
+    padding: 0rem 12rem 2rem 2rem;
+    font-size: 1.4rem;
+}
+
+.summary button {
+    margin-left: 2rem;
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffefd5;
+    color: #b75a74;
+    font-weight: bold;
+}
+
+.group1 .right-column {
+    position: relative;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.image-mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/Travel-image.jpg');
+    background-size: cover;
+    background-position: center;
+    /* -webkit-mask-image: url('shape-img.png');
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-image: url('shape-img.png');
+    mask-size: cover;
+    mask-repeat: no-repeat;
+    mask-position: center; */
+}
+
+.group2, .group4, .group7 {
+    background-color: #ffefd5;
+    color: #b75a74;
+    position: relative;
+}
+
+.group2 .summary, .group4 .summary, .group7 .summary {
+    text-align: center;
+}
+
+.group2 p span, .group4 p span, .group7 p span {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.small-images img {
+    position: absolute;
+    width: 8.5vw;
+}
+
+.lamp {
+    top: -5%;
+    left: 10%;
+}
+
+.lamp2 {
+    bottom: -18%;
+    right: 8%;
+}
+
+.shoes {
+    top: 10%;
+    right: 5%;
+}
+
+.map {
+    bottom: 20%;
+    left: -1%;
+}
+
+.camera {
+    bottom: -7%;
+    left: 45%;
+}
+
+.banana {
+    top: 55%;
+    right: 0%;
+}
+
+.watch {
+    width: 100px;
+    bottom: -22%;
+    left: 3%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5rem 1.5rem;
+    text-align: center;
+}
+
+.card {
+    max-width: 20vw;
+}
+
+.card img {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+}
+
+.card h4 {
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+}
+
+.group3, .group5 {
+    background-color: #b75a74;
+    color: #ffefd5;
+    display: flex;
+    align-items: center;
+}
+
+.group3 .left-column, .group3 .right-column, .group5 .left-column, .group5 .right-column {
+    width: 50vw;
+    padding: 5rem 0.5rem;
+}
+
+.group3 img {
+    margin-left: 5rem;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.group3 .summary h1 {
+    font-size: 3.65rem;
+    margin-bottom: 2rem;
+}
+
+.group3 .summary p {
+    max-width: 35vw;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.group3 .summary button {
+    margin-left: 0rem;
+}
+
+.stats-section {
+    padding: 7rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 1rem;
+}
+
+.stat {
+    border: 2px solid #b75a74;
+    border-radius: 50%;
+    width: 19.5vw;
+    height: 19.5vw;
+    padding: 5.5vw 0vw;
+}
+
+.stat h1 {
+    font-size: 4rem;
+}
+
+.stat p {
+    font-size: 2rem;
+}
+
+.group5 {
+    padding-left: 5rem;
+}
+
+.group5 .right-column img {
+    margin-left: 5rem;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.bg-img {
+    background: url(Images/Group6-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    z-index: -1;
+}
+
+.overlay {
+    background-color: rgba(255, 0, 72, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 15rem 5rem;
+}
+
+.overlay p {
+    max-width: 45vw;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.overlay h6 {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.group7 {
+    padding-top: 11rem;
+}
+
+.contact form {
+    display: flex;
+    max-width: 75vw;
+    padding-left: 26rem;
+    position: relative;
+}
+
+.contact input[type="email"] {
+    margin-top: 3.5rem;
+    padding: 15px;
+    font-size: 0.875rem;
+    width: 70vw;
+    border-radius: 10rem;
+    border: none;
+    outline: none;
+}
+
+.contact button {
+    position: absolute;
+    right: 0%;
+    margin-top: 3.5rem;
+    padding: 15px 26px;
+    background-color: #b75a74;
+    color: #ffefd5;
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.footer {
+    background: #291319;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-left, .footer-right {
+    margin: auto 5rem;
+}
+
+.footer-left {
+    flex: 0.8;
+}
+
+.footer-left h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    font-size: 1.3rem;
+    max-width: 27vw;
+    line-height: 1.3;
+}
+
+.footer-left .social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons img {
+    margin-top: 2rem;
+    height: 35px;
+}
+
+.footer-right {
+    flex: 1.2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(176px, 1fr));
+    gap: 1.5rem;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 13px;
+}
+
+.footer-column ul li a {
+    font-size: 1rem;
+    opacity: 0.9;  
+    text-decoration: none;
+    color: white;
+    transition: 0.1s;
+}
+
+.footer-column ul li a:hover {
+    color: rgb(238, 148, 148);
+}
+
+@media (max-width:1250px) {
+    html {
+        font-size: 0.95rem;
+    }
+
+    .stat h1 {
+        font-size: 3rem;
+    }
+
+    .stat p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:992px) {
+    html {
+        font-size: 0.9rem;
+    }
+
+    .contact {
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact form {
+        padding-left: 17rem;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 0.85rem;
+    }
+
+    .group1 {
+        display: block;
+    }
+
+    .group1 .right-column {
+        height: 100%;
+        width: 100%;
+    }
+
+    .group1 .left-column {
+        width: 97vw;
+    }
+
+    .nav-links {
+        width: 81%;
+    }
+
+    .group1 .summary {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .group1 .summary h1 {
+        padding: 1rem 2rem;
+    }
+
+    .group1 .summary p {
+        padding: 1rem 2rem 2rem 2rem;
+    }
+
+    .stats-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        place-items: center;
+        padding-top: 3rem;
+    }
+
+    .stat h1 {
+        font-size: 2rem;
+    }
+
+    .stat p {
+        font-size: 1rem;
+    }
+
+    .contact form {
+        padding-left: 10rem;
+    }
+
+    .group5 {
+        padding: 0rem 0.7rem;
+    }
+
+    .group5 .left-column, .group5 .right-column {
+        padding: 5rem 0rem;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 0.8rem;
+    }
+
+    .group1 .navbar .logo img {
+        margin-right: 2rem;
+        width: 9.5vw;
+    }
+
+    .group1 .summary h1 {
+        padding: 0rem 2rem 1rem 2rem;
+    }
+
+    .nav-links {
+        width: 90%;
+    }
+
+    .group2 .summary, .group4 .summary {
+        padding-top: 7rem;
+    }
+
+    .group2 p span, .group4 p span {
+        padding: 0rem 1rem;
+        font-size: 1.1rem;
+    }
+
+    .group2 .cards {
+        margin-top: 2rem;
+    }
+
+    .group3 img {
+        margin-left: 2rem;
+    }
+
+    .group6 .overlay {
+        padding: 9rem 5rem;
+    }
+
+    .contact form {
+        padding-left: 5rem;
+    }
+
+    .footer-left p {
+        max-width: 100vw;
+    }
+
+    .footer-right {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+}
+
+
+
