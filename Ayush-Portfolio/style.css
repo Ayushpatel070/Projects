@@ -71,13 +71,14 @@ body {
 .hero {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 80px 10%;
   min-height: 100vh;
 }
 
 .hero-left {
+  padding-left: 5.5rem;
   flex: 1 1 500px;
   z-index: 1;
 }
@@ -146,7 +147,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  width: 237%;
+  width: 215%;
   height: 100%;
   background: #f0f0f0;
   transform: skewX(-15deg);
@@ -294,8 +295,8 @@ body {
 
 .project-card {
   position: relative;
-  width: 280px;
-  height: 200px;
+  width: 340px;
+  height: 230px;
   overflow: hidden;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
