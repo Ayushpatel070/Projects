@@ -78,7 +78,6 @@ body {
 }
 
 .hero-left {
-  padding-left: 5.5rem;
   flex: 1 1 500px;
   z-index: 1;
 }
@@ -147,7 +146,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  width: 215%;
+  width: 237%;
   height: 100%;
   background: #f0f0f0;
   transform: skewX(-15deg);
@@ -451,6 +450,11 @@ body {
 }
 
 /* Responsive Navbar & Layout */
+@media (max-width:1140px) {
+    .bg-skew {
+      display: none;
+    }
+}
 @media (max-width: 980px) {
   .hero {
     flex-direction: column;
@@ -554,5 +558,14 @@ body {
 
   .contact-form .btn {
     width: 100%;
+  }
+}
+
+@media (max-width:501px) {
+  .hero {
+    padding: 20px 10%;
+  }
+  .hero-right {
+    top: -300px;
   }
 }
