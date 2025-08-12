@@ -10,6 +10,22 @@
 <body onscroll="scroll()">
     <section class="container">
         <nav class="navbar">
+            <div class="hidden-navbar">
+            <div class="logo logo2">B</div>
+            <div class="hamburger" id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="nav-slide" id="mobileNav">
+              <a href="#">Home</a>
+              <a href="#">Shop</a>
+              <a href="#">Pages</a>
+              <a href="#">Contact</a>
+              <a href="#">Blog</a>
+              <a href="#">Cart (0)</a>
+            </div>
+            </div>
             <ul class="nav-links">
                 <ul class="nav-links" id="navLinksLeft">
                 <li class="main-menu"><a href="#">HOME <i class="fa-solid fa-angle-down"></i></a>
@@ -65,11 +81,8 @@
                 </li>
             </ul>    
             </ul>
-            <div class="logo">B</div>
-            <label for="nav-toggle" class="hamburger">
-                <span><i class="fa-solid fa-cart-shopping"></i> (0)</span>
-                <span>☰</span>
-            </label>
+            <div class="logo logo1">B</div>
+            <!-- <span class="shop"><i class="fa-solid fa-cart-shopping"></i> (0)</span> -->
             <input type="checkbox" id="nav-toggle" hidden>
             <ul class="nav-links">
                 <ul class="nav-links" id="navLinksRight">
@@ -449,10 +462,17 @@
 
     <script>
         let a = document.querySelector(".navbar");
+        const hamburger = document.getElementById('hamburger');
+        const mobileNav = document.getElementById('mobileNav');
+
+        hamburger.addEventListener('click', () => {
+            mobileNav.classList.toggle('menu-open');  // slide in/out
+            hamburger.classList.toggle('icon-x');     // hamburger ↔ cross
+        });
 
         function scroll(){
-           a.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
-           a.style.backdropFilter = "blur(8px)";
+            a.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
+            a.style.backdropFilter = "blur(8px)";
         }
 
         let count1 = 0;
