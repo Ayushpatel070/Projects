@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+.create, .products, .team, .view-in-action, button, form {
+    background-color: rgb(168, 215, 65);
+}
+
+.create {
+    padding: 150px 0;
+}
+
+.fa-chevron-right {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: rgb(168, 215, 65);
+    transition: 0.3s;
+}
+
+h2 span {
+    display: inline-block;
+    font-size: 5rem;
+}
+
+.card h3 {
+    font-size: 3.2rem;
+}
+
+.white:hover {
+    background-color: rgb(168, 215, 65) !important;
+}
+
+.create button {
+    border: 2px solid white;
+}
+
+.create button:hover {
+    background-color: white !important;
+    border: 2px solid black;
+    color: black !important;
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+.cards .card {
+    width: 580px;
+    transition: 0.3s;
+}
+
+p.font-size {
+    line-height: 40px;
+}
+
+.feature i, .fa-youtube {
+    color: rgb(168, 215, 65);
+    font-size: 4.5rem;
+}
+
+.product, .team-member, .partner {
+    width: 380px;
+    transition: 0.3s;
+}
+
+.product img, .team-member img {
+    height: 270px;
+}
+
+.r1, .review, .contact-card {
+    transition: 0.3s;
+}
+
+.r1:hover, .card:hover, .partner:hover, .product:hover, .team-member:hover, .review:hover, .contact-card:hover {
+    transform: rotate(-2.5deg) scale(1.03);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.col1 {
+    width: 40%;
+}
+
+button {
+    width: fit-content;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: rotate(7deg) scale(1.1);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+button:hover .fa-chevron-right {
+    color: white;
+}
+
+.view-in-action .image {
+    background: url("https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-2.jpeg") center / cover;
+    height: 500px;
+}
+
+.view-in-action h4, .contact h4, .fa-envelope, .fa-mobile-screen-button {
+    font-size: 4rem;
+}
+
+.partner, .review, .contact-card {
+    background-color: rgb(244, 242, 242);
+}
+
+.partner img {
+    width: 140px;
+}
+
+.contact-card {
+    width: 48%;
+}
+
+form {
+    width: 60%;
+}
+
+.input-width {
+    width: 49%;
+}
+
+iframe {
+    height: 75vh;
+}
