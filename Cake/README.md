@@ -2,17 +2,9 @@ I'm seeking a skilled frontend developer to create a fully responsive clone of t
 
 Website Link:- https://bakersap.vercel.app/
 
-Key Requirements:
-- Pages to clone: Home, About, Products
-- Must include:
-  - Contact form
-  - Social media integration
-  - Counter using JS
-  - Dropdown effective navbar
-
 Key Features:
 -Fully responsive design for mobile, tablet, and desktop
-- Attractive product showcase for cakes and desserts
+- Attractive product showcase for cakes and deserts
 - Clean typography and color palette for a premium feel
 - Smooth navigation and layout structure
 - Organized and reusable Tailwind utility classes
@@ -22,6 +14,4 @@ Ideal Skills & Experience:
 - Strong UI design and frontend development skills
 - Experience with responsive web design
 - Attention to detail to ensure accuracy of the clone
-
-Please provide samples of previous work.
 
