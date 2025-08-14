@@ -1,6 +1,11 @@
-I'm seeking a skilled frontend developer to create a fully responsive clone of the "Cake Shop 02" theme from baker.la-studioweb.com using HTML, CSS, and JavaScript. The clone must replicate the original site's elegant design, smooth layouts, and user-friendly navigation.
+## Cake Shop Website
 
-Website Link:- https://bakersap.vercel.app/
+A fully responsive cake shop website built with **HTML**, **CSS**, and minimal **JavaScript**.  
+Live demo: [bakersap.vercel.app](https://bakersap.vercel.app/)  
+
+This project is a clone of [baker.la-studioweb.com/cake-shop-02](https://baker.la-studioweb.com/cake-shop-02/),  
+featuring a clean layout, cross-device compatibility, and smooth user experience.
+
 
 Key Features:
 -Fully responsive design for mobile, tablet, and desktop
