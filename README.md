@@ -16,7 +16,7 @@ Live demo: [grocery-store-ayush.vercel.app](https://grocery-store-ayush.vercel.a
 
 Clone of [klbtheme.com/grogin](https://klbtheme.com/grogin/) featuring a modern design and seamless viewing experience across all devices.
 
-![Grocery Store Screenshot](Ayush-Portfolio/Grocery Store.png)
+![Grocery Store Screenshot](Ayush-Portfolio/Grocery-Store.png)
 
 ---
 
@@ -36,7 +36,7 @@ Live demo: [projects-dte9.vercel.app](https://projects-dte9.vercel.app/)
 
 Features a clean, modern layout faithful to the original design and optimized for all screen sizes.
 
-![Traveling Website Screenshot](Ayush-Portfolio/FIGMA To HTML.png)
+![Traveling Website Screenshot](Ayush-Portfolio/FIGMA-To-HTML.png)
 
 ---
 
@@ -46,7 +46,7 @@ Live demo: [projects-9sjb.vercel.app](https://projects-9sjb.vercel.app/)
 
 Maintains pixel-perfect accuracy to the PSD design while ensuring compatibility across devices.
 
-![PSD Website Screenshot](Ayush-Portfolio/PSD To HTML.png)
+![PSD Website Screenshot](Ayush-Portfolio/PSD-To-HTML.png)
 
 ---
 
