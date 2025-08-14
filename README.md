@@ -1,4 +1,4 @@
-## Portfolio Projects
+## Projects
 
 ### 1. Cake Shop Website  
 A fully responsive cake shop website built with **HTML**, **CSS**, and minimal **JavaScript**.  
