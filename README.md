@@ -6,7 +6,7 @@ Live demo: [bakersap.vercel.app](https://bakersap.vercel.app/)
 
 Clone of [baker.la-studioweb.com/cake-shop-02](https://baker.la-studioweb.com/cake-shop-02/) with a clean layout, cross-device compatibility, and smooth user experience.
 
-![Cake Shop Screenshot](https://your-screenshot-link.com/cake-shop.png)
+![Cake Shop Screenshot](Ayush-Portfolio/Cake-shop.png)
 
 ---
 
