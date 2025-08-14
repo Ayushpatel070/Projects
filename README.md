@@ -32,7 +32,7 @@ Showcases personal projects, skills, and contact information with an interactive
 
 ### 4. Figma to HTML – Traveling Website  
 A fully responsive traveling website converted from a Figma design using **HTML** and **CSS**.  
-Live demo: [projects-dte9.vercel.app](https://projects-dte9.vercel.app/)  
+Live demo: [projects-figma-to-html.vercel.app](https://projects-dte9.vercel.app/)  
 
 Features a clean, modern layout faithful to the original design and optimized for all screen sizes.
 
@@ -42,7 +42,7 @@ Features a clean, modern layout faithful to the original design and optimized fo
 
 ### 5. PSD to HTML Website  
 A fully responsive website created by converting a PSD design into **HTML** and **CSS**.  
-Live demo: [projects-9sjb.vercel.app](https://projects-9sjb.vercel.app/)  
+Live demo: [projects-psd-to-html.vercel.app](https://projects-9sjb.vercel.app/)  
 
 Maintains pixel-perfect accuracy to the PSD design while ensuring compatibility across devices.
 
@@ -52,7 +52,7 @@ Maintains pixel-perfect accuracy to the PSD design while ensuring compatibility 
 
 ### 6. Bootstrap eCommerce Clothing Website  
 A fully responsive eCommerce clothing website built using **Bootstrap**.  
-Live demo: [[Your Project Link Here](https://mobirise-bootstrap.vercel.app/)]  
+Live demo: [[mobirise-bootstrap.vercel.app](https://mobirise-bootstrap.vercel.app/)]  
 
 Clone of [mobirise.com/extensions/toolm5/t-shirt-design](https://mobirise.com/extensions/toolm5/t-shirt-design/) featuring a stylish product showcase and mobile-friendly layout.
 
