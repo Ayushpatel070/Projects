@@ -1,0 +1,22 @@
+{
+  "name": "manish-industries-website-server",
+  "version": "1.0.0",
+  "description": "Server-side application for Manish Industries Website",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "mongoose": "^8.18.1",
+    "nodemailer": "^7.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Manish Industries",
+  "license": "MIT"
+}

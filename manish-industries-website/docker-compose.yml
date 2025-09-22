@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:6
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  server:
+    build: ./server
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/manish-industries
+      - JWT_SECRET=your_jwt_secret_here
+      - SMTP_HOST=smtp.example.com
+      - SMTP_PORT=587
+      - SMTP_USER=your_smtp_user@example.com
+      - SMTP_PASS=your_smtp_password
+      - BUSINESS_EMAIL=manishindustries2312@gmail.com
+      - PHONE=+91-9898146433
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+    volumes:
+      - ./server:/app
+    command: npm start
+
+volumes:
+  mongo_data:
