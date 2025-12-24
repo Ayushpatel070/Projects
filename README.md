@@ -63,11 +63,11 @@ Clone of [mobirise.com/extensions/toolm5/t-shirt-design](https://mobirise.com/ex
 ### 7. Weather Website (React)  
 A simple and responsive weather application built using React.js that allows users to check real-time weather details for any city.
 
-![Weather Website Screenshot](Ayush-Portfolio/Images/Weather.png)
+![Weather Website Screenshot](Ayush-Portfolio/Images/)
 
 ---
 
 ### 8. Notes Website (React)  
 A simple notes management application built using React.js and Tailwind CSS. Users can add and delete notes with ease using a clean and modern UI.
 
-![Notes Website Screenshot](Ayush-Portfolio/Images/Notes.png)
+![Notes Website Screenshot](Ayush-Portfolio/Images/)
