@@ -27,8 +27,8 @@ A simple notes management application built using React.js and Tailwind CSS. Use
 git clone [https://github.com/Ayushpatel070/react-mini-projects.git](https://github.com/Ayushpatel070/Projects/tree/main/React-mini-Projects)
 
 # Navigate to project folder
-cd react-mini-projects
-cd notes-project
+- cd react-mini-projects
+- cd notes-project
 
 # Install dependencies
 npm install
