@@ -1,12 +1,37 @@
-# React + Vite
+# Notes App (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple notes management application built using React.js and Tailwind CSS. Users can add and delete notes with ease using a clean and modern UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Add notes with:
+  - Title
+  - Description
+- View recently added notes
+- Delete notes instantly
+- Responsive and minimal design using Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React.js
+- JavaScript
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🧠 Concepts Used
+- Functional Components
+- useState Hook
+- Props
+- Event Handling
+- Conditional Rendering
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ▶️ How to Run
+# Clone the repository
+git clone [https://github.com/Ayushpatel070/react-mini-projects.git](https://github.com/Ayushpatel070/Projects/tree/main/React-mini-Projects)
+
+# Navigate to project folder
+- cd react-mini-projects
+- cd notes-project
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
