@@ -205,6 +205,7 @@
         <section id="contact" class="contact-section">
             <div class="container">
                 <h2 class="section-title">Get In Touch</h2>
+                <div id="form-alert" class="form-alert hidden"></div>
                 <form class="contact-form" id="contact-form">
 
                     <!-- <input type="hidden" name="_captcha" value="false">
@@ -253,6 +254,16 @@
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
+        const alertBox = document.getElementById("form-alert");
+
+        function showAlert(message, type) {
+            alertBox.textContent = message;
+            alertBox.className = `form-alert ${type}`;
+            setTimeout(() => {
+                alertBox.className = "form-alert hidden";
+            }, 3000);
+        }
+
         emailjs.init("APJ3I_6imMY-pslqB");
 
         document
@@ -266,12 +277,12 @@
                     this
                 ).then(
                     () => {
-                        alert("Message sent successfully");
+                        showAlert("Message sent successfully!", "success");
                         this.reset();
                     },
                     (error) => {
                         console.error(error);
-                        alert("Failed to send message");
+                        showAlert("Failed to send message. Please try again.", "error");
                     }
                 );
             });
