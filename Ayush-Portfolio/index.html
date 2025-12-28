@@ -55,11 +55,12 @@
                     <h5 class="section-subtitle">MY INTRODUCTION</h5>
                     <h2>About Me</h2>
                     <p>
-                        I'm Ayush Patel, a frontend developer from Ahmedabad.
-                        I enjoy building responsive and user-friendly websites.
-                        Skilled in HTML, CSS, and JavaScript with hands-on project experience.
-                        Created a Cake e-commerce site and personal portfolio.
-                        Looking to grow in a tech-driven team and learn more every day.
+                        I'm Ayush Patel, Frontend Developer with strong basics in HTML, CSS, and JavaScript, and
+                        introductory knowledge of React.js.
+                        Experienced in building responsive and user-friendly web interfaces. Familiar with
+                        component-based structure and
+                        basic state handling in React. Eager to learn, improve skills, and contribute to a development
+                        team.
                     </p>
 
                     <p><em>“Design is intelligence made visible. Code brings it to life.”</em></p>
@@ -102,28 +103,33 @@
             <div class="skill-card">
                 <img src="Images/javascript.png" class="skill-icon" alt="JavaScript" />
                 <h4>JavaScript</h4>
-                <div class="level-label">80%</div>
+                <div class="level-label">85%</div>
+            </div>
+            <div class="skill-card">
+                <img src="Images/react.png" class="skill-icon" alt="React" />
+                <h4>React</h4>
+                <div class="level-label">70%</div>
+            </div>
+            <div class="skill-card">
+                <img src="Images/Tailwind.png" class="skill-icon" alt="Tailwind CSS" />
+                <h4>Tailwind CSS</h4>
+                <div class="level-label">75%</div>
             </div>
             <div class="skill-card">
                 <img src="Images/bootstrap.png" class="skill-icon" alt="Bootstrap" />
                 <h4>Bootstrap</h4>
-                <div class="level-label">80%</div>
+                <div class="level-label">75%</div>
             </div>
             <!-- <div class="skill-card">
-                <img src="Images/react.png" class="skill-icon" alt="React" />
-                <h4>React</h4>
-                <div class="level-label">75%</div>
-            </div> -->
-            <div class="skill-card">
                 <img src="Images/Wordpress.png" class="skill-icon" alt="WordPress" />
                 <h4>WordPress</h4>
                 <div class="level-label">70%</div>
-            </div>
-            <div class="skill-card">
+            </div> -->
+            <!-- <div class="skill-card">
                 <img src="Images/figma.png" class="skill-icon" alt="Photoshop" />
                 <h4>Figma</h4>
                 <div class="level-label">60%</div>
-            </div>
+            </div> -->
             <!--
             <div class="skill-card">
                 <img src="images/seo.png" class="skill-icon" alt="SEO" />
@@ -199,11 +205,11 @@
         <section id="contact" class="contact-section">
             <div class="container">
                 <h2 class="section-title">Get In Touch</h2>
-                <form action="https://formspree.io/f/xldlwnnw" method="POST" class="contact-form">
+                <form class="contact-form" id="contact-form">
 
-                    <input type="hidden" name="_captcha" value="false">
+                    <!-- <input type="hidden" name="_captcha" value="false">
 
-                    <input type="hidden" name="_next" value="https://ayush-portfolio-sooty.vercel.app/">
+                    <input type="hidden" name="_next" value="https://ayush-portfolio-sooty.vercel.app/"> -->
 
                     <div class="form-group">
                         <input type="text" name="name" placeholder="Your Name" required />
@@ -212,7 +218,7 @@
                         <input type="email" name="email" placeholder="Your Email" required />
                     </div>
                     <div class="form-group">
-                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                        <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
                     </div>
                     <button type="submit" class="btn primary">Send Message</button>
                 </form>
@@ -228,8 +234,10 @@
                 <p>Crafting frontend experiences with code & creativity ✨</p>
                 <div class="social-icons">
                     <a href="https://github.com/Ayushpatel070" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ayush-patel-150316250/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/ayush_2975/?__pwa=1" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ayush-patel-150316250/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/ayush_2975/?__pwa=1" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
                 </div>
                 <p class="copyright">© 2025 Ayush Patel. All rights reserved.</p>
             </div>
@@ -242,15 +250,37 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
+        emailjs.init("APJ3I_6imMY-pslqB");
+
+        document
+            .getElementById("contact-form")
+            .addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                emailjs.sendForm(
+                    "service_ybmckd6",
+                    "template_6meatxo",
+                    this
+                ).then(
+                    () => {
+                        alert("Message sent successfully");
+                        this.reset();
+                    },
+                    (error) => {
+                        console.error(error);
+                        alert("Failed to send message");
+                    }
+                );
+            });
         ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
         ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
         ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
         ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
         ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
-        ScrollReveal().reveal('.contact-section', {origin: 'bottom',distance: '60px',duration: 1000,delay: 300,});
+        ScrollReveal().reveal('.contact-section', { origin: 'bottom', distance: '60px', duration: 1000, delay: 300, });
     </script>
 </body>
 
