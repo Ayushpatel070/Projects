@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Get Me a Chai ☕  
+A crowdfunding platform built with Next.js that allows creators to receive direct support from their fans in the form of small contributions.
 
-## Getting Started
+## 🚀 About the Project
+Get Me a Chai is designed for creators who want a simple and personal way to fund their projects. Fans can contribute small amounts to support creative work, helping creators turn ideas into reality without relying on traditional funding methods.
 
-First, run the development server:
+## ✨ Features
+- Creator profiles
+- Fan contributions (Buy a Chai)
+- Secure authentication
+- Responsive UI
+- Scalable Next.js architecture
 
+## 🛠 Tech Stack
+- **Frontend & Backend:** Next.js
+- **Styling:** Tailwind CSS
+- **Authentication:** NextAuth
+- **Database:** MongoDB
+- **Payments:** Razorpay
+
+## 📦 Installation
 ```bash
+git clone https://github.com/Ayushpatel070/getmeachai.git
+cd getmeachai
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
