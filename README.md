@@ -71,3 +71,10 @@ A simple and responsive weather application built using React.js that allows use
 A simple notes management application built using React.js and Tailwind CSS. Users can add and delete notes with ease using a clean and modern UI.
 
 ![Notes Website Screenshot](Ayush-Portfolio/Images/Notes.png)
+
+---
+
+### 9. Get Me a Chai ☕ (Next)  
+A crowdfunding platform built with Next.js that allows creators to receive direct support from their fans in the form of small contributions.
+
+![Getmeachai Website Screenshot](Ayush-Portfolio/Images/GetMeAChai.png)
